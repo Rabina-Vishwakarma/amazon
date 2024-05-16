@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>box</title>
+	<style type="text/css">
+        body 
+        {
+        	padding: 100px;
+        	justify-content: center;
+        }
+
+
+		.box
+		{
+			height: 400px;
+			width: 400px;
+
+		}
+		.box1
+		{
+			height: 200px;
+			width: 200px;
+			
+		}
+		button
+		{
+			height: 20px;
+			width: 100px;
+			color: white;
+		}
+		.cont 
+		{
+			width: 100px;
+			font-size: 20px;
+			background: white;
+			color: green;
+			margin-left: 20px;
+			opacity: 0;
+			transition: 0.5s;
+		}
+		.box:hover .cont
+		{
+			height: 20px;
+			background: whitesmoke;
+			opacity: 1;
+			transform: translateY(-40px);
+
+		}
+		button 
+		{
+         height: 20px;
+         width: 150px;
+         background: orange;
+         color: white;
+         opacity: 0;
+         border:2px solid orange;
+
+		}
+		.box:hover button
+
+       {
+       	opacity: 1;
+       }
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="box1"><img src="f81a29c1-4378-4712-a489-a859a0705627.JPEG" height="200px" width="200px"></div>
+         <div class="cont">Quick view</div><br>
+         I'm a product<br>
+         <button>Add to card</button>
+	</div>
+
+</body>
+</html>
